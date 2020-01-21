@@ -1,0 +1,37 @@
+POST /oauth2/access_token HTTP/1.1
+
+Authorization: Basic ZVNhdDctaXU5ZG9NOlp0dkxEejBuMS1rSlZ3a0l2eEM0aVNKMHlNdkp5ZFBx
+
+X-Locale-Language: en
+
+X-Client-Session-ID: f0f6f963-c7a3-4397-8429-98a0e297184f
+
+X-Device-Density: 480
+
+X-Carrier: Republic
+
+X-Locale-Region: US
+
+User-Device: motorola Moto G (4)
+
+User-Agent: lyft:android:7.0:6.14.3.1578489314
+
+X-Design-ID: X
+
+Accept-Language: en_US
+
+X-Session: eyJmIjoiNWIwNjkyNjItYzYwNy00YjkwLTg0ZmUtNDVlOTk0OGZjMjI3IiwiYSI6IjI1MzIxNjMyZWQzYjA0NmMiLCJrIjoiYThlYWY0MTgtNDk0NC00OWMxLWFiODEtZDRmZjk4NWFlNGM2IiwiaCI6dHJ1ZX0=
+
+Content-Type: application/x-www-form-urlencoded
+
+Content-Length: 256
+
+Host: api.lyft.com
+
+Connection: close
+
+Accept-Encoding: gzip, deflate
+
+
+
+grant_type=urn%3Alyft%3Aoauth2%3Agrant_type%3Aphone&phone_number=%2B18326452395&phone_code=%s&identifiers=W3sidHlwZSI6ImFuZHJvaWRfYmFja3VwX3Rva2VuIiwic291cmNlIjoibHlmdF9hbmRyb2lkX2FwcCIsIm5hbWUiOiJhOGVhZjQxOC00OTQ0LTQ5YzEtYWI4MS1kNGZmOTg1YWU0YzYifV0%3D
