@@ -6,7 +6,7 @@ def queueRequests(target, wordlists):
                            )
 
     # the 'gate' argument blocks the final byte of each request until openGate is invoked
-    for word in open('/home/louis/Desktop/projects/ihopethisworks.txt'):
+    for word in open('ihopethisworks.txt'):
         engine.queue(target.req, word.rstrip(), gate='race1')
         
 
