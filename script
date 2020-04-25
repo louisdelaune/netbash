@@ -6,7 +6,7 @@ def queueRequests(target, wordlists):
 
                            requestsPerConnection=50,
 
-                           pipeline=False
+                           pipeline=True
 
                            )
 
